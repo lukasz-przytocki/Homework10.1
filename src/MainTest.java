@@ -7,7 +7,7 @@ public class MainTest {
         cars[3] = new Truck("Star", 100,12, true, 100);
 
         for (int i = 0; i <cars.length ; i++) {
-            System.out.printf("Distance %.1f\n",cars[i].range());
+            System.out.printf("Distance %.1f km\n",cars[i].range());
         }
     }
 }
