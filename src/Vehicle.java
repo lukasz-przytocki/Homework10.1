@@ -21,4 +21,15 @@
         return fuelConsumption;
     }
 
-}
+     public void setName(String name) {
+         this.name = name;
+     }
+
+     public void setFuelCapacity(double fuelCapacity) {
+         this.fuelCapacity = fuelCapacity;
+     }
+
+     public void setFuelConsumption(double fuelConsumption) {
+         this.fuelConsumption = fuelConsumption;
+     }
+ }

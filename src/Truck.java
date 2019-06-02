@@ -9,6 +9,10 @@ public class Truck extends Car {
         return loadWeight;
     }
 
+    public void setLoadWeight(int loadWeight) {
+        this.loadWeight = loadWeight;
+    }
+
     @Override
     double range() {
         double extraConsumption = (loadWeight / 100);

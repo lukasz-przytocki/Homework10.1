@@ -5,6 +5,10 @@ public class Car extends Vehicle {
         return airConditionOn;
     }
 
+    public void setAirConditionOn(boolean airConditionOn) {
+        this.airConditionOn = airConditionOn;
+    }
+
     public Car(String name, double fuelCapacity, double fuelConsumption, boolean airConditionOn) {
         super(name, fuelCapacity, fuelConsumption);
         this.airConditionOn = airConditionOn;
